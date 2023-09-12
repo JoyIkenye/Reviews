@@ -1,0 +1,92 @@
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .header::before {
+    content: "";
+    display: block;
+    width: 7%; 
+    height: 4px;
+    background-color: rgb(17, 186, 233);;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: 0; 
+  }
+  
+
+.reviewContainer{   
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 500px;
+
+}
+.image-container{ 
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-right: 6px solid rgb(17, 186, 233);  
+}     
+
+.quote-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px; 
+    color:white; 
+    background-color: rgb(17, 186, 233);
+    padding: 5px;
+    border-radius: 50%; 
+    
+}
+  
+.name{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+.job{
+color:rgb(17, 186, 233) ;
+text-align: center;
+}
+.text{
+text-align: center;
+font-size: 18px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 24px;
+    background-color: #fff;
+    color: rgb(17, 186, 233);
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.randomBtn-container{
+    display: flex;
+    justify-content: center;
+}
+.randomBtn{
+    font-size: 18px;
+    background-color: rgb(136, 205, 225);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 20px; 
+    cursor: pointer;
+}
